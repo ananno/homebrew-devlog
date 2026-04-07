@@ -3,8 +3,8 @@
 class Devlog < Formula
   desc "AI-powered development log generator for git repositories"
   homepage "https://gitlab.com/aice/devlog"
-  url "https://gitlab.com/aice/devlog/-/archive/v1.1.0/devlog-v1.1.0.tar.gz"
-  sha256 "fd8979babdcc7624c94e7baeba52448846343cf659751d4546bd802147e572ca"
+  url "https://gitlab.com/aice/devlog/-/archive/v1.2.0/devlog-v1.2.0.tar.gz"
+  sha256 "4c1f5e6c0d1372207df5a8726c96f670dffa52b01fdf0897caa05c9a202fffb4"
   license "MIT"
 
   depends_on "rust" => :build
