@@ -6,7 +6,7 @@ This is a Homebrew tap for **devlog** — an enterprise-grade, privacy-first AI 
 
 ```bash
 # Add the tap
-brew tap ananno/devlog
+brew tap ananno/devlog https://gitlab.com/ananno/homebrew-devlog.git
 
 # Install devlog
 brew install devlog
@@ -18,11 +18,11 @@ Devlog transforms Git commit history into intelligent, human-readable changelogs
 
 ### Key Features
 
-🔐 **Privacy-First** — Code diffs never leave your machine by default  
-🚀 **Enterprise-Ready** — Self-hosted LLM support (Ollama, llama.cpp)  
-⚙️ **Flexible** — Plain mode, local LLMs, or optional cloud (explicit opt-in)  
-📊 **Smart Analysis** — Analyzes actual code changes, not just commit messages  
-📝 **Multiple Formats** — Markdown and JSON output
+- **Privacy-First** — Code diffs never leave your machine by default
+- **Enterprise-Ready** — Self-hosted LLM support (Ollama, llama.cpp)
+- **Flexible** — Plain mode, local LLMs, or optional cloud (explicit opt-in)
+- **Smart Analysis** — Analyzes actual code changes, not just commit messages
+- **Multiple Formats** — Markdown and JSON output
 
 ## Quick Start
 
@@ -99,30 +99,31 @@ Full documentation available at: https://gitlab.com/aice/devlog
 
 Devlog is designed for enterprise teams who need:
 
-✅ **Privacy & Compliance** — GDPR-friendly, no vendor lock-in  
-✅ **Self-Hosted LLMs** — Ollama, llama.cpp support  
-✅ **Offline Operation** — Works completely without internet  
-✅ **Privacy Controls** — 3-level privacy settings (strict, moderate, relaxed)  
-✅ **Full Audit Trail** — Local processing, complete transparency  
+- **Privacy & Compliance** — GDPR-friendly, no vendor lock-in
+- **Self-Hosted LLMs** — Ollama, llama.cpp support
+- **Offline Operation** — Works completely without internet
+- **Privacy Controls** — 3-level privacy settings (strict, moderate, relaxed)
+- **Full Audit Trail** — Local processing, complete transparency
 
 ## Project Quality
 
-- ✅ 287 unit tests (all passing)
-- ✅ 5 documentation tests (all passing)
-- ✅ Security: cargo-audit passing
-- ✅ MIT licensed
-- ✅ Enterprise-ready codebase
+- 287 unit tests (all passing)
+- 5 documentation tests (all passing)
+- Security: cargo-audit passing
+- MIT licensed
+- Enterprise-ready codebase
 
 ## Repository
 
-- **GitLab:** https://gitlab.com/aice/devlog
+- **GitLab (main project):** https://gitlab.com/aice/devlog
+- **GitLab (this tap):** https://gitlab.com/ananno/homebrew-devlog
 - **Issues:** https://gitlab.com/aice/devlog/-/issues
 - **License:** MIT
 
 ## Support
 
 For issues, questions, or feature requests:
-- GitHub Issues (this tap): Coming soon
+- GitLab Issues (this tap): https://gitlab.com/ananno/homebrew-devlog/-/issues
 - GitLab Issues (main project): https://gitlab.com/aice/devlog/-/issues
 
 ## License
@@ -131,6 +132,4 @@ MIT License — See [LICENSE](https://gitlab.com/aice/devlog/-/blob/main/LICENSE
 
 ---
 
-**Tap Maintainer:** [ananno](https://github.com/ananno)
-
-**Last Updated:** April 7, 2026
+**Tap Maintainer:** [ananno](https://gitlab.com/ananno)
