@@ -3,9 +3,9 @@
 class Devlog < Formula
   desc "AI-powered development log generator for git repositories"
   homepage "https://gitlab.com/ananno/devlog"
-  url "https://gitlab.com/ananno/devlog/-/archive/v2.0.3/devlog-v2.0.3.tar.gz"
-  sha256 "c31207d668982d20433eb404fb40ab90d84291436460ab53247ff20c61b38f15"
-  version "2.0.3"
+  url "https://gitlab.com/ananno/devlog/-/archive/v2.1.0/devlog-v2.1.0.tar.gz"
+  sha256 "bbcbe1fe4ab4c4dbdbf150185fbb58cd27ba40581892461dee9fda546ae67f7b"
+  version "2.1.0"
   license "MIT"
 
   depends_on "rust" => :build
